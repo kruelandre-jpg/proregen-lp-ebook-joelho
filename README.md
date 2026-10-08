@@ -85,3 +85,8 @@ cd /workspace/lp-ebook-joelho
 git add -A && git commit -m "Atualiza LP" && git push
 ```
 (GitHub Pages republica sozinho em ~1 min.)
+
+## Lead de teste (apagar)
+
+- 08/10/2026 18:13:46 · Interesse `Joelho` · nome `TESTE LP JOELHO Fausto` · WhatsApp `54000000000` · `fausto@agentmail.to`
+  (linha 4 da planilha; confirmado pela leitura da planilha). Apague essa linha antes de ligar o Manychat.
