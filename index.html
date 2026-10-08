@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PRP ou Ácido Hialurônico? Ebook grátis sobre artrose de joelho | Proregen</title>
+  <meta name="description" content="Baixe grátis o ebook PRP ou Ácido Hialurônico?, do Dr. André Kruel. O que uma revisão recente de 28 estudos randomizados mostra sobre as infiltrações na artrose de joelho, em linguagem simples.">
+  <meta name="theme-color" content="#66B2E0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="assets/logo-h-light.svg" type="image/svg+xml">
+  <link rel="canonical" href="https://kruelandre-jpg.github.io/proregen-lp-ebook-joelho/">
+  <meta property="og:title" content="PRP ou Ácido Hialurônico? Ebook grátis | Proregen">
+  <meta property="og:description" content="O que a ciência mais recente mostra sobre as infiltrações na artrose de joelho, explicado em linguagem de consultório pelo Dr. André Kruel.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:url" content="https://kruelandre-jpg.github.io/proregen-lp-ebook-joelho/">
+  <meta property="og:image" content="https://kruelandre-jpg.github.io/proregen-lp-ebook-joelho/assets/og-joelho.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#topo" aria-label="Proregen, início">
+        <!-- logo-h-light = dark charcoal mark for light backgrounds -->
+        <img src="assets/logo-h-light.svg" alt="Proregen" width="140" height="36">
+      </a>
+      <a class="header-cta" href="#formulario">Baixar ebook</a>
+    </div>
+  </header>
+
+  <main id="topo">
+    <!-- Hero -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Ebook gratuito · Artrose de joelho</p>
+          <h1 id="hero-title">PRP ou ácido hialurônico? O que a ciência mais recente mostra sobre a artrose de joelho.</h1>
+          <p class="hero-lead">
+            É a pergunta que mais ouço no consultório. Neste guia gratuito, eu traduzo em
+            linguagem simples uma revisão publicada em 2026 no Journal of ISAKOS, que comparou
+            as duas infiltrações frente a frente. Sem pressa e sem promessas milagrosas.
+          </p>
+          <ul class="hero-stats" aria-label="Números da revisão">
+            <li><strong>28</strong>estudos randomizados</li>
+            <li><strong>2.685</strong>pacientes</li>
+            <li><strong>2026</strong>revisão recente</li>
+          </ul>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#formulario">Baixar o ebook grátis</a>
+            <a class="btn btn-secondary" href="#livro">Conhecer o livro</a>
+          </div>
+          <p class="hero-note">PDF gratuito · Escrito pelo Dr.&nbsp;André Kruel · CRM-RS&nbsp;23627</p>
+        </div>
+
+        <aside class="hero-card" aria-hidden="true">
+          <img class="hero-cover" src="assets/ebook-joelho-capa.jpg" alt="" width="636" height="900">
+        </aside>
+      </div>
+    </section>
+
+    <!-- Lead form + thank-you -->
+    <section class="form-section" id="formulario" aria-labelledby="form-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="form-title">Receba o ebook agora</h2>
+          <p>Preencha os dados abaixo. Em seguida, o PDF fica disponível para download imediato.</p>
+        </div>
+
+        <div id="form-wrap">
+          <form class="form-card" id="lead-form" novalidate>
+            <!--
+              app.js POSTs to the same Google Form as the spine LP
+              (fetch no-cors / hidden iframe), with Interesse fixed as "Joelho",
+              then always reveals the thank-you + PDF download.
+            -->
+            <div class="field">
+              <label for="nome">Nome completo</label>
+              <input type="text" id="nome" name="nome" autocomplete="name" required placeholder="Seu nome e sobrenome" maxlength="120">
+              <span class="field-error" id="err-nome" hidden></span>
+            </div>
+
+            <div class="field">
+              <label for="whatsapp">WhatsApp</label>
+              <input type="tel" id="whatsapp" name="whatsapp" autocomplete="tel" inputmode="numeric" required placeholder="(54) 99999-9999" maxlength="16">
+              <span class="hint">Com DDD. Usamos só para contato clínico, sem spam.</span>
+              <span class="field-error" id="err-whatsapp" hidden></span>
+            </div>
+
+            <div class="field">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" autocomplete="email" required placeholder="voce@email.com" maxlength="160">
+              <span class="field-error" id="err-email" hidden></span>
+            </div>
+
+            <input type="hidden" id="interesse" name="interesse" value="Joelho">
+
+            <button type="submit" class="btn btn-primary btn-block" id="submit-btn">
+              Baixar o ebook grátis
+            </button>
+            <p class="form-privacy">Seus dados ficam sob cuidado da Proregen. Não enviamos spam.</p>
+          </form>
+        </div>
+
+        <!-- Thank-you state (same page) -->
+        <div class="thank-you" id="thank-you" hidden role="status" aria-live="polite">
+          <div class="ty-icon" aria-hidden="true">✓</div>
+          <h2>Pronto, o ebook é seu</h2>
+          <p>Obrigado pelo interesse. Clique abaixo para baixar o PDF agora e guarde para levar à sua próxima consulta. Se quiser ir além, o livro <em>Dói Aqui?</em> aprofunda o tema com a mesma linguagem clara.</p>
+          <div class="ty-actions">
+            <a class="btn btn-primary" id="download-ebook" href="assets/Ebook-Proregen-Joelho-PRP-AH.pdf" download>
+              Baixar PDF: PRP ou Ácido Hialurônico?
+            </a>
+            <a class="btn btn-secondary" data-wa data-wa-msg="Olá! Baixei o ebook PRP ou Ácido Hialurônico? e gostaria de conversar sobre o meu joelho.">
+              Falar no WhatsApp
+            </a>
+          </div>
+          <div class="ty-book">
+            <img src="assets/doi-aqui-capa.jpg" alt="Capa do livro Dói Aqui?" width="90" height="109">
+            <div>
+              <h3>Quer ir além do guia?</h3>
+              <p>O livro <strong>Dói Aqui?</strong>, do Dr. André Kruel e do Dr. Fábio Costa, traz uma conversa completa sobre dor nas articulações e as opções de cuidado.</p>
+              <a class="btn btn-secondary" id="book-cta-thanks" href="https://www.editoragente.com.br/doi-aqui--7520/p" target="_blank" rel="noopener noreferrer">
+                Conhecer o livro Dói Aqui?
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- What you'll learn: 6 chapters -->
+    <section class="benefits" aria-labelledby="benefits-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="benefits-title">O que você vai aprender</h2>
+          <p>Seis capítulos curtos, pensados para a conversa de consultório: diretos e acessíveis.</p>
+        </div>
+        <div class="benefits-grid six">
+          <article class="benefit-card">
+            <span class="benefit-num" aria-hidden="true">1</span>
+            <h3>Artrose e infiltrações: onde cada uma entra</h3>
+            <p>Por que a artrose não é só desgaste da cartilagem e em que etapa do tratamento as infiltrações fazem sentido, depois do exercício, do controle do peso e da fisioterapia.</p>
+          </article>
+          <article class="benefit-card">
+            <span class="benefit-num" aria-hidden="true">2</span>
+            <h3>Conheça o ácido hialurônico e o PRP</h3>
+            <p>Duas lógicas diferentes: o ácido hialurônico atua na lubrificação da articulação, e o PRP, preparado a partir do seu próprio sangue, atua na inflamação.</p>
+          </article>
+          <article class="benefit-card">
+            <span class="benefit-num" aria-hidden="true">3</span>
+            <h3>O estudo: 28 ensaios, 2.685 pacientes</h3>
+            <p>O que é uma metanálise, por que ela está no topo da evidência científica e como foram medidas a dor e a função do joelho.</p>
+          </article>
+          <article class="benefit-card">
+            <span class="benefit-num" aria-hidden="true">4</span>
+            <h3>Os resultados, e onde o PRP se destacou</h3>
+            <p>O que a revisão encontrou sobre dor e função na comparação direta, e o grau de confiança de cada achado, contado com transparência.</p>
+          </article>
+          <article class="benefit-card">
+            <span class="benefit-num" aria-hidden="true">5</span>
+            <h3>Os 3 fatores que ampliam o benefício</h3>
+            <p>Tipo de preparo, número de aplicações e grau da artrose: as situações em que a diferença a favor do PRP ficou maior nos estudos.</p>
+          </article>
+          <article class="benefit-card">
+            <span class="benefit-num" aria-hidden="true">6</span>
+            <h3>O PRP é para mim? + perguntas frequentes</h3>
+            <p>Se a aplicação dói, quantas sessões costumam ser indicadas, se substitui a fisioterapia e para quais graus de artrose faz mais sentido.</p>
+          </article>
+        </div>
+        <p class="evidence-note">
+          Base do ebook: Alshehri D, et al. Journal of ISAKOS, 2026 (doi:10.1016/j.jisako.2026.101218, versão pré-publicação).
+          Os resultados de estudos são médias e não garantem o mesmo efeito em cada pessoa.
+        </p>
+      </div>
+    </section>
+
+    <!-- Who it's for -->
+    <section class="for-whom" aria-labelledby="whom-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="whom-title">Para quem é este ebook</h2>
+          <p>Ele foi escrito para você se alguma destas situações parece familiar.</p>
+        </div>
+        <ul class="check-list">
+          <li>Tem dor no joelho há meses, que atrapalha caminhar, subir escadas ou dormir.</li>
+          <li>Já recebeu o diagnóstico de artrose de joelho, principalmente em fase leve a moderada.</li>
+          <li>Já fez exercícios, fisioterapia ou ajustes de peso e ainda sente limitação.</li>
+          <li>Ouviu falar de PRP e de ácido hialurônico e quer entender a diferença antes de decidir com o seu médico.</li>
+          <li>Quer conhecer as opções antes de pensar em cirurgia.</li>
+        </ul>
+        <div class="center-cta">
+          <a class="btn btn-primary" href="#formulario">Quero o ebook grátis</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Author -->
+    <section class="author" aria-labelledby="author-title">
+      <div class="container">
+        <div class="author-card">
+          <div class="author-mark" aria-hidden="true">AK</div>
+          <div>
+            <h2 id="author-title">Dr. André Kruel</h2>
+            <p class="author-role">Ortopedista · Ortopedia Regenerativa · Grupo Proregen</p>
+            <p>
+              Ortopedista com atuação em Ortopedia Regenerativa e em cirurgia de prótese de
+              quadril, joelho e ombro. Fundador do Grupo Proregen, presidente da SMBTOC, membro da
+              Câmara Técnica de Ortopedia e Traumatologia do CFM e docente da Orthoregen.
+              Mestre pelo PPGCM/Univates, MBA pela FGV e doutorando em Biotecnologia pela Univates.
+              Coautor, com o Dr. Fábio Costa, do livro <em>Dói Aqui?</em> (Editora Gente).
+            </p>
+            <p class="author-reg">CREMERS / CRM-RS 23627 · RQE 14323</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Book upsell -->
+    <section class="book-offer" id="livro" aria-labelledby="book-title">
+      <div class="container book-grid">
+        <img
+          class="book-cover"
+          src="assets/doi-aqui-capa.jpg"
+          alt="Capa do livro Dói Aqui?, de Dr. André Kruel e Dr. Fábio Costa"
+          width="220"
+          height="267"
+          loading="lazy"
+        >
+        <div class="book-copy">
+          <p class="eyebrow">Livro · Editora Gente</p>
+          <h2 id="book-title">Dói Aqui? A conversa completa sobre a dor</h2>
+          <p>
+            Se o ebook abre a porta, o livro aprofunda. Escrito pelo Dr. André Kruel e pelo
+            Dr. Fábio Costa, <em>Dói Aqui?</em> é uma leitura acolhedora sobre dor nas
+            articulações, opções de cuidado e o papel dos tratamentos ortobiológicos, com a
+            mesma honestidade clínica e sem promessas de cura.
+          </p>
+          <div class="book-actions">
+            <a
+              class="btn btn-primary"
+              id="book-cta"
+              href="https://www.editoragente.com.br/doi-aqui--7520/p"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Conhecer o livro Dói Aqui?
+            </a>
+            <a class="btn btn-secondary" href="#formulario">Baixar o ebook grátis</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <a class="footer-logo" href="https://proregen.com.br" target="_blank" rel="noopener noreferrer" aria-label="Proregen">
+          <img src="assets/logo-h-dark.svg" alt="Proregen" width="130" height="32">
+        </a>
+        <div class="footer-meta">
+          <div><strong>Dr.&nbsp;André Kruel</strong></div>
+          <div>CREMERS / CRM-RS 23627 · RQE 14323</div>
+          <div>
+            <a href="https://proregen.com.br" target="_blank" rel="noopener noreferrer">proregen.com.br</a>
+            ·
+            <a data-wa data-wa-msg="Olá! Vim pela página do ebook PRP ou Ácido Hialurônico?.">WhatsApp (54)&nbsp;99689-1295</a>
+          </div>
+        </div>
+      </div>
+      <p class="footer-disclaimer">
+        Este material tem caráter educativo e não substitui consulta nem avaliação médica individual.
+        Os resultados variam de pessoa para pessoa e nem todos os casos têm indicação de infiltração.
+        A indicação de PRP, ácido hialurônico ou outros ortobiológicos depende de avaliação
+        individualizada; converse sempre com o médico responsável pelo seu caso.
+        Referência: Alshehri D, et al. Platelet-Rich Plasma Provides Greater Pain Relief and Functional
+        Improvement Than Hyaluronic Acid for Knee Osteoarthritis: A Systematic Review and Meta-analysis
+        of Randomized Controlled Trials. J ISAKOS. 2026. doi:10.1016/j.jisako.2026.101218 (versão
+        pré-publicação, sujeita a revisão final). Proregen / Dr.&nbsp;André Kruel.
+      </p>
+    </div>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
